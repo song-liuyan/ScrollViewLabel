@@ -13,7 +13,7 @@ iOS开发 UIScrollView封装滚动标签
 2.底部选中标识线不支持滚动动画
 ### 主要代码
 ```
-CGFloat last_item_max_X =0.0f;
+    CGFloat last_item_max_X =0.0f;
     for (NSInteger i=0; i<array.count; i++) {
         UIButton *textBtn =nil;
         if (self.btnArray.count>i) {
