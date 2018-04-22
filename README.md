@@ -55,4 +55,8 @@ CGFloat last_item_max_X =0.0f;
     _lineView.bounds =CGRectMake(0, 0, [array[_selectIndex] stringOfSize:ItemFoundSize]+5, 2);
     _lineView.center =CGPointMake(CGRectGetWidth(_oldButton.frame)/2, CGRectGetHeight(_oldButton.frame)-8);
     [_oldButton addSubview:_lineView];
-    ```
+```
+### 使用:
+
+使用地址:https://www.jianshu.com/p/cf03c29ac645
+
